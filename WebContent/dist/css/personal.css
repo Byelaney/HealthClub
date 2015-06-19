@@ -1,0 +1,41 @@
+#personalFile{
+	border:1px solid #C1CDC1;
+	width:640px;
+	height:500px;
+	margin-left:280px;
+	margin-top:30px;
+}
+
+
+
+#personalFile img{
+	margin-top:15px;
+	margin-left:50px;
+}
+
+#detail{
+	height:300px;
+}
+
+#detail label{
+	margin-left:183px;
+	
+}
+
+#detail a{
+	color:#698ebf;
+
+}
+
+#personalFile button{
+	float:right;
+}
+
+#submitButton{
+	margin-left:550px;
+}
+
+#ceaseButton{
+	float:right;
+}
+

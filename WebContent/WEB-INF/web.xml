@@ -1,0 +1,32 @@
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+<filter>
+
+       <filter-name>Zh_cNFilter</filter-name>
+
+        <filter-class>com.Club.Filter.Zh_cNFilter</filter-class>
+<init-param>
+<param-name>charset</param-name>
+<param-value>utf-8</param-value>
+</init-param>
+
+    </filter>
+
+    <filter-mapping>
+
+       <filter-name>Zh_cNFilter</filter-name>
+
+       <url-pattern>/*</url-pattern>
+
+    </filter-mapping>
+
+
+<welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+<listener>  
+     <listener-class>com.Club.Auto.AutoRun</listener-class>  
+  </listener>  
+
+
+</web-app>
